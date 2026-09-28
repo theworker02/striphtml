@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/striphtml",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Strip config/html key checks for twelve-factor services.",
+  "bin": {
+    "striphtml": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/striphtml.git"
+  },
+  "homepage": "https://theworker02.github.io/striphtml/",
+  "keywords": [
+    "strip",
+    "html",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
